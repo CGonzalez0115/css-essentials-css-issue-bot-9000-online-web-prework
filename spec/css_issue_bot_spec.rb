@@ -9,7 +9,7 @@ RSpec.describe 'styling' do
 
     it 'corrects the h1 font size declaration' do
       selector = parsed_css.find_by_selector('h1')[0]
-      expect(selector).to include("font-size: 3em;"), "Missing properly formatted h1 font size declaration"
+  "Missing properly formatted h1 font size declaration"
     end
 
     it 'corrects the h2 font weight declaration' do
