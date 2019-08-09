@@ -24,7 +24,7 @@ RSpec.describe 'styling' do
 
     it 'corrects the #tasks .completed background declaration' do
       selector = parsed_css.find_by_selector('#tasks .completed')[0]
-      
+
 
   end
 
